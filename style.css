@@ -124,10 +124,9 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 0;
-  margin-bottom: 50px;
   text-align:left;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .pitch-line {
