@@ -162,6 +162,163 @@ html, body {
   text-decoration: none;
 }
 
+/* PRICING */
+
+.subtitle{
+    text-align: center;
+    width: 50%;
+}
+
+.pricing__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__list--container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.price{
+    width: calc(100%/3);
+    border: 1px solid grey;
+    margin: 0 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;    
+}
+
+.price__stripe {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.price:nth-child(1) .price__stripe {
+    color: #f7fafc;
+    background: linear-gradient( 115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100% );
+}
+
+.price:nth-child(3) .price__stripe {
+    color: #f7fafc;
+    background: linear-gradient( 115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100% );
+}
+
+.price__desc--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature__list:nth-child(1){
+    font-size: 30px;
+}
+ 
+.feature__list{
+    margin: 12px 0;
+    color: grey;
+    font-size: 17px;
+}
+
+.audience{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.pricing__divider--top{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: grey;
+    opacity: 0.2;
+    width: 100%;
+}
+
+.pricing__divider--bottom{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: grey;
+    opacity: 0.2;
+    width: 100%;
+}
+
+.pricing__btn{
+    padding: 16px 56px;
+    border-radius: 30px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 14px;
+    border-color: transparent;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.pricing__btn:hover{
+    transform: translateX(1px) translateY(-1px);
+    box-shadow: -10px 20px 40px -20px grey;
+    cursor: pointer;
+}
+
+.personal__btn{
+    background-color: turquoise;
+    color: white;
+    background: linear-gradient( 115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100% );
+}
+
+.business__btn{
+    background-color: white;
+    color: #6415ff;
+}
+
+.enterprise__btn{
+    background-color: red;
+    color: white;
+    background: linear-gradient( 115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100% );
+}
+
+.price__title{
+    margin-top: 45px;
+}
+
+.price__display, 
+.cadence{
+    margin-top: 15px;
+}
+
+.price__display{
+    font-size: 48px;
+}
+
+.cadence{
+    color: grey;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.business{
+    background: linear-gradient( 135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100% );
+}
+
+.business, 
+.business .cadence, 
+.business .feature__list {
+    color: white;
+}
+
+.business .pricing__divider--top,
+.business .pricing__divider--bottom{
+    color: lightblue;
+    opacity: 1;
+}
+
 /* ===== ABOUT SECTION ===== */
 .about {
   display: flex;
