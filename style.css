@@ -125,6 +125,7 @@ html, body {
   flex-direction: column;
   gap: 0;
   margin-bottom: 50px;
+  text-align:left
 }
 
 .pitch-line {
