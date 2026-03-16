@@ -107,6 +107,8 @@ html, body {
 }
 
 /* ===== PITCH SECTION ===== */
+
+
 .pitch {
   background: #ffffff;
   padding: 80px 20px 60px;
@@ -134,6 +136,7 @@ html, body {
   font-weight: 500;
   line-height: 1.6;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .pitch-line.sm {
@@ -159,6 +162,12 @@ html, body {
   border: none;
   cursor: pointer;
   text-decoration: none;
+}
+
+
+.intro{
+  text-align: center;
+  color: black;
 }
 
 /* PRICING */
@@ -209,7 +218,7 @@ html, body {
     background: linear-gradient( 115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100% );
 }
 
-.price:nth-child(3) .price__stripe {
+.price:nth-child(2) .price__stripe {
     color: #f7fafc;
     background: linear-gradient( 115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100% );
 }
